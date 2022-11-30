@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(143, 23, 223);
+    font-family: sans-serif;
+}
+
+header {
+    background-image: linear-gradient(to top, rgb(143, 23, 223), rgb(199, 10, 247));
+    height: 7em;
+    text-align: center;
+    line-height: 4em;
+}
+
+header h1 {
+    font-size: 3em;
+    font-weight: bolder;
+    color: rgb(228, 212, 212);
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.445);
+}
+
+header p {
+    color: rgb(240, 230, 230);
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.445);
+    font-size: 1.2em;
+}
+
+nav {
+    height: 1.5em;
+    background-image: linear-gradient(to bottom, rgb(143, 23, 223), rgb(199, 10, 247));
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(68, 17, 122);
+    font-size: 1.2em;
+}
+
+nav > a:hover {
+    color: rgb(4, 0, 12);
+    transition: 0.7s;
+    background-color: rgb(90, 23, 216);
+}
+
+main {
+    background-color: lightblue;
+    height: 37em;
+    width: 80em;
+    text-align: justify;
+    margin: auto;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-bottom: 25px;
+}
+
+main p {
+    line-height: 1.4em;
+    color: rgb(17, 16, 16);
+}
+
+footer {
+    background-color: black;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.3em;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
